@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    position: relative;
+}
+.nav-bottom-border{
+    position: absolute;
+    width: 150px;
+    height: 2px;
+    left: 490px;
+    background: blue;
+}
+.banner-right{
+    position: relative;
+    width: 400px;
+    height: 300px;
+    background: #fff;
+}
+.banner-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(9% 0, 100% 1%, 92% 49%, 100% 100%, 9% 100%, 0% 50%);
+}
+.btn-card{
+    border: none;
+    border-radius: 10px;
+    padding: 2px 5px;
+    font-size: 10px;
+    font-weight: 400;
+}
+.cat-btn{
+    border: none;
+    font-size: 10px;
+    border-radius: 20px;
+    padding: 5px 10px
+}
+.card-text{
+    font-size: 12px;
+    font-weight: 400;
+}
+.card-img-top{
+    width: 349px;
+    height: 195px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+#viewall p{
+    font-size: 12px;
+    color: gray;
+}
+.certificat-vid{
+    margin-left: 90px;
+    border-radius: 30px;
+}
+.profile{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.profile-mid-l{
+    width: 75px;
+    height: 75px;
+    margin-right: 50px;
+    border-radius: 50%;
+}
+.profile-mid-r{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.source p{
+    font-size: 12px;
+    font-weight: 400;
+}
+#engage{
+    background-color: whitesmoke;
+}
+.card-ggle{
+    width: 300px
+}
+.card-engage{
+    background: rgb(34, 34, 89);
+}
+.dot{
+    width: 100px;
+}
+.fa-circle{
+    font-size: 10px;
+}
+.gglelogo{
+    width: 65px;
+    position: absolute;
+    bottom: -8px;
+    left: 50px;
+}
+.img{
+    position: relative;
+    left: 0;
+    top: 0;
+}
+.googleimg{
+    width: 250px;
+    clip-path: polygon(0 0, 100% 0, 100% 73%, 0% 100%);
+}
+#questions h4{
+    color: gray;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.det-1 ul{
+    list-style-type: none;
+    color: gray;
+}
+.flex-details{
+    display: flex;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+    .banner-left{
+        text-align: center;
+    }
+    .banner-right{
+        display: flex;
+        justify-content: center;
+    }
+    .career-details{
+        text-align: center;
+    }
+    .banner-img{
+        width: 300px;
+    }
+    .banner-right{
+        width: 300px;
+    }
+    .cards-all{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .find-cat{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-cert{
+        display: flex;
+        flex-direction: column;
+    }
+    .certificat-vid{
+        margin-left: 0;
+    }
+    .causol{
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .profiles-left{
+        height: 0;
+        width: 0;
+        overflow: hidden;
+    }
+    .profiles-right{
+        height: 0;
+        width: 0;
+        overflow: hidden;
+    }
+    .profilemidnext{
+        height: 0;
+        width: 0;
+        overflow: hidden;
+    }
+    .profilemid{
+        height: 0;
+        width: 0;
+        overflow: hidden;
+    }
+    .flex-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .source{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  
+    }
+    .source .d-flex{
+        justify-content: center;
+    }
+    .sourceimg{
+        width: 300px;
+        height: 300px;
+    }
+    .googleimg{
+        width: 295px;
+    }
+   .google{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+}
